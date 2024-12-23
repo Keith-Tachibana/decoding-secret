@@ -12,7 +12,7 @@ const cheerio = require('cheerio');
       if (data.p[i] > xMax) xMax = data.p[i];
       if (data.p[i + 2] > yMax) yMax = data.p[i + 2];
       let dataObj = {
-        x: data.p[i],f
+        x: data.p[i],
         y: data.p[i + 2],
         unicode: data.p[i + 1]
       };
