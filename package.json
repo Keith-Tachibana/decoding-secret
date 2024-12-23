@@ -1,0 +1,19 @@
+{
+  "name": "decoding_secret",
+  "version": "1.0.0",
+  "description": "A JavaScript app that parses a URL and decodes a secret",
+  "main": "decodingSecret.js",
+  "scripts": {
+    "dev": "nodemon decodingSecret.js",
+    "start": "NODE_ENV=production node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keith Tachibana",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
